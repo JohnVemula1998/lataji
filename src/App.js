@@ -1,25 +1,17 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import Lata from './Lata/Lata';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <Lata
+        name = "Lata Mangeshkar"
+        honorific="Nightingale of India"
+        image="https://upload.wikimedia.org/wikipedia/commons/e/e4/Lata_Mangeshkar_-_still_29065_crop.jpg"
+        lived="Lata Mangeshkar [1942–2022]"/>
+        
       </div>
     );
   }

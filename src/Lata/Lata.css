@@ -1,0 +1,22 @@
+.container{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: bisque;
+}
+.image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card{
+    border: 2px solid blue;
+    background-color: rgb(80, 226, 43);
+}
+ul{
+    margin: 10px;
+}
+.head{
+    text-align: center;
+}
